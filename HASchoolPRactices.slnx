@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="HASchoolPRactices/HASchoolPRactices.vcxproj" Id="c87d55a6-72fe-4911-be60-3fe13817fbf3" />
+</Solution>

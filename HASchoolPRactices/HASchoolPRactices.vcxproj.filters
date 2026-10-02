@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\配布用">
+      <UniqueIdentifier>{558095dc-3bef-4dbc-ae28-3af0633dbc2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\はじめに">
+      <UniqueIdentifier>{0b992494-c93a-43cf-b2f6-130f8778faa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\配布用\Step1 変数・算術演算">
+      <UniqueIdentifier>{11d82f19-8e2e-4233-9df7-bba94e665c45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\授業後に出来上がる予定のサンプル">
+      <UniqueIdentifier>{4ab92aea-8736-427c-90b6-97f52cc0d659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\授業後に出来上がる予定のサンプル\Step1 変数・算術演算">
+      <UniqueIdentifier>{7cdfb3aa-aeea-461c-895b-9b24415987c9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="introduction.cpp">
+      <Filter>ソース ファイル\はじめに</Filter>
+    </ClCompile>
+    <ClCompile Include="gameloop.cpp">
+      <Filter>ソース ファイル\はじめに</Filter>
+    </ClCompile>
+    <ClCompile Include="variable_a.cpp">
+      <Filter>ソース ファイル\授業後に出来上がる予定のサンプル\Step1 変数・算術演算</Filter>
+    </ClCompile>
+    <ClCompile Include="variable.cpp">
+      <Filter>ソース ファイル\配布用\Step1 変数・算術演算</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
