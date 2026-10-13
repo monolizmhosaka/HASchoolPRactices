@@ -46,8 +46,10 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
     // 文字を表示する処理
     // DrawString( X座標, Y座標, 表示する文字列, 文字の色 );
     // --------------------------------------------------
-    DrawString(0, 100, "Hello, DX Library!", GetColor(255, 255, 255));
+    DrawString(100, 100, "Hello, DX Library!", GetColor(100, 255, 100));
     DrawString(100, 140, "DXライブラリへようこそ！", GetColor(255, 200, 100));
+    DrawString(100, 180, "保坂昇秀！", GetColor(100, 0, 200));
+
 
     // 裏画面の内容を表画面に反映
     ScreenFlip();

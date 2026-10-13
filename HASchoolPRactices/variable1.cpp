@@ -5,6 +5,7 @@
 // 　＊【プログラム基礎】変数同士や数値（定数）との計算をしてみよう。算術演算子もね。
 // 　＊【プログラム基礎】余りについて、のお話し
 // 　＊【プログラム基礎】繰り返すごとに変数の値が変化することを確認しよう。
+//　
 // 
 // いろいろ弄ってみる
 // 　＊今表示されている文字列を変数を使って表示してみよう。
@@ -27,9 +28,6 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
     // 描画先を裏画面に設定（チラつき防止）
     SetDrawScreen(DX_SCREEN_BACK);
 
-    int x = 0;
-    int y = 300;
-
     // メインループ（ウィンドウが閉じられるか、Escキーが押されるまで継続）
     while (ProcessMessage() == 0 && CheckHitKey(KEY_INPUT_ESCAPE) == 0)
     {
@@ -42,10 +40,6 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
         // --------------------------------------------------
         DrawString(100, 100, "Hello, DX Library!", GetColor(255, 255, 255));
         DrawString(100, 140, "DXライブラリへようこそ！", GetColor(255, 200, 100));
-
-        DrawString(x, y, "うひょひょ", GetColor(155, 200, 100));
-        x = x + 5;
-		y = y - 5;
 
         // 裏画面の内容を表画面に反映
         ScreenFlip();

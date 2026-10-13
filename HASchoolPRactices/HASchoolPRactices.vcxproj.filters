@@ -36,11 +36,20 @@
     <ClCompile Include="gameloop.cpp">
       <Filter>ソース ファイル\はじめに</Filter>
     </ClCompile>
-    <ClCompile Include="variable_a.cpp">
+    <ClCompile Include="variable1_a.cpp">
       <Filter>ソース ファイル\授業後に出来上がる予定のサンプル\Step1 変数・算術演算</Filter>
     </ClCompile>
-    <ClCompile Include="variable.cpp">
+    <ClCompile Include="variable1.cpp">
       <Filter>ソース ファイル\配布用\Step1 変数・算術演算</Filter>
+    </ClCompile>
+    <ClCompile Include="variable2_a.cpp">
+      <Filter>ソース ファイル\授業後に出来上がる予定のサンプル\Step1 変数・算術演算</Filter>
+    </ClCompile>
+    <ClCompile Include="variable2.cpp">
+      <Filter>ソース ファイル\配布用\Step1 変数・算術演算</Filter>
+    </ClCompile>
+    <ClCompile Include="template.cpp">
+      <Filter>ソース ファイル\配布用</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
