@@ -8,7 +8,7 @@ using namespace std;
 // 　＊【プログラム基礎】変数には専用の型があることを確認しよう。
 // 　＊【プログラム基礎】変数の中身を表示する方法を確認しよう。
 // 　＊【プログラム基礎】変数の中身同士を計算する方法を確認しよう。算術演算子
-// 　＊【プログラム基礎】余りについて、のお話し。余りを表示してみよう。
+// 　＊【ゲームプログラミング】ある点の周囲をくるくる回る点の座標を計算して表示してみよう。sin, cos関数を使うよ。
 // 
 // いろいろ弄ってみる
 // 　＊いろいろな変数や定数を宣言して計算・表示してみよう。
@@ -33,6 +33,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
     int x = 0;
     int y = 300;
 
+    double fuyo = 0.0f;
 	double da = 0.0;    // 小数点を入れるための変数。
     bool flag = false;  // 表面上はfalseだが、実際には0が入っている。0はfalseと同じ意味。
     char c = 'A';      // 文字型の変数。
@@ -80,6 +81,15 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
         // いろんな計算をしてみる。
         int ans = 3 * 5;
         DrawString(100, 400, to_string(ans).c_str(), GetColor(255, 255, 255));
+
+
+        fuyo = fuyo + 0.05;
+        if (fuyo > 6.28) {
+            fuyo = 0.0;
+        }
+        double x1 = cos(fuyo);
+        double y1 = sin(fuyo);
+        DrawString(400+(x1*30), 400+(y1*30), "●", GetColor(255, 255, 255));
 
 
 		// ループカウンターを増やす

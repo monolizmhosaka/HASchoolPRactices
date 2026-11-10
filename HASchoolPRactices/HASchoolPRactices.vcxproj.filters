@@ -28,6 +28,15 @@
     <Filter Include="ソース ファイル\授業後に出来上がる予定のサンプル\Step1 変数・算術演算">
       <UniqueIdentifier>{7cdfb3aa-aeea-461c-895b-9b24415987c9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\授業後に出来上がる予定のサンプル\Step2 画像の表示">
+      <UniqueIdentifier>{2d672b3a-4387-45b6-b9ae-118de308e5ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\配布用\Step2 画像の表示">
+      <UniqueIdentifier>{3a49961c-06af-4289-9506-ac8f37174356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\Hero">
+      <UniqueIdentifier>{a03e6c65-317c-406f-9d1a-cf31082e46e9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="introduction.cpp">
@@ -51,5 +60,43 @@
     <ClCompile Include="template.cpp">
       <Filter>ソース ファイル\配布用</Filter>
     </ClCompile>
+    <ClCompile Include="drawImage1_a.cpp">
+      <Filter>ソース ファイル\授業後に出来上がる予定のサンプル\Step2 画像の表示</Filter>
+    </ClCompile>
+    <ClCompile Include="drawImage1.cpp">
+      <Filter>ソース ファイル\配布用\Step2 画像の表示</Filter>
+    </ClCompile>
+    <ClCompile Include="drawImage2.cpp">
+      <Filter>ソース ファイル\配布用\Step2 画像の表示</Filter>
+    </ClCompile>
+    <ClCompile Include="drawImage2_a.cpp">
+      <Filter>ソース ファイル\授業後に出来上がる予定のサンプル\Step2 画像の表示</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\hero_down_1.png">
+      <Filter>リソース ファイル\Hero</Filter>
+    </Image>
+    <Image Include="images\hero_down_2.png">
+      <Filter>リソース ファイル\Hero</Filter>
+    </Image>
+    <Image Include="images\hero_left_1.png">
+      <Filter>リソース ファイル\Hero</Filter>
+    </Image>
+    <Image Include="images\hero_left_2.png">
+      <Filter>リソース ファイル\Hero</Filter>
+    </Image>
+    <Image Include="images\hero_right_1.png">
+      <Filter>リソース ファイル\Hero</Filter>
+    </Image>
+    <Image Include="images\hero_right_2.png">
+      <Filter>リソース ファイル\Hero</Filter>
+    </Image>
+    <Image Include="images\hero_up_1.png">
+      <Filter>リソース ファイル\Hero</Filter>
+    </Image>
+    <Image Include="images\hero_up_2.png">
+      <Filter>リソース ファイル\Hero</Filter>
+    </Image>
   </ItemGroup>
 </Project>
